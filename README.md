@@ -6,7 +6,7 @@ Task Description :-
 To be able to generate two line summary for a large corpus of reviews from Google Play Store about a particular app. Here, I choose SBI YONO app
 
 Procedure:
-1. Firstly, I have obtained 9 topics using Latent Dirchilet Allocation Multicore method of Topic Modelling using Gensim, with workers=2.
+1. Firstly, I have obtained 9 topics using Latent Dirichilet Allocation Multicore method of Topic Modelling using Gensim, with workers=2.
 2. Keeping, the alpha parameter symmetric, I have divided the reviews into 9 clusters according to topics, which means 9 clusters are created for 9 topics.
 3. Next, for every cluster I have obtained extractive summarization with tuning parameters as ratio of words or number of words in the summary.
 4. Lastly, I have combined all the 9 summaries obtained from 9 clusters and pulledout summary. This Final summary consists of 2-3 lines. 
