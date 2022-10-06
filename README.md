@@ -1,4 +1,4 @@
-# Topic-Modelling-and-Text-Summarization
+# Topic-Modeling-and-Text-Summarization
 
 Natural Language Processing has major role to deal with understanding of text.
 
